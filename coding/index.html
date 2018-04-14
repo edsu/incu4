@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Qualitative Coding</title>
+
+    <meta name="description" content="Qualitative Coding">
+    <meta name="author" content="Ed Summers">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+
+        <section>
+          <h2>Qualitative Coding</h2>
+          <hr>
+        </section>
+
+        <section>
+          <h1>What is Qualitative Analysis?</h1>
+          <p class="fragment">A set of methods for developing models that allow you to answer questions about human experience.</p>
+        </section>
+
+        <section>
+          <h1>Why?</h1>
+          <br>
+          <ul>
+            <li class="fragment">Why are people communicating with <span style="color: yellow;">@blklivesmatter</span>?</a></li>
+            <li class="fragment">Why is <span style="color: yellow;">@blklivesmatter</span> retweeting other accounts?</li>
+            <li class="fragment">Why are activists groups using Twitter?</li>
+          </ul>
+        </section>
+
+        <section>
+          <h1>How?</h1>
+          <br>
+          <ul>
+            <li class="fragment">How is <span style="color: yellow;">@blklivesmatter</span> using Twitter?</li>
+            <li class="fragment">How are protests being coordinated on Twitter?</li>
+            <li class="fragment">How do other activists groups interact with <span style="color: yellow;">@blklivesmatter</span>?</li>
+          </ul>
+        </section>
+
+        <section>
+          <h1>NVivo</h1>
+          <ul>
+            <li class="fragment"><b style="color: yellow;">Code</b>: themes, concepts, ideas</li>
+            <li class="fragment"><b style="color: yellow;">Case</b>: people, places, things</li>
+            <li class="fragment"><b style="color: yellow;">Annotation</b>: notes about specific content</li>
+            <li class="fragment"><b style="color: yellow;">Memo</b>: document emergent themes</li>
+            <li class="fragment"><b style="color: yellow;">Visualization</b>: explore your data</li>
+          </ul>
+        </section>
+
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        width: "100%",
+        height: "100%",
+        controls: false,
+        progress: false,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
